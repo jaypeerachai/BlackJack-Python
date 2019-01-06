@@ -5,7 +5,7 @@ import random
 
 import card
 
-suits = ('Hearts', 'Diamonds', 'Spades', 'Clubs')
+suits = ('\u2663', '\u2666', '\u2665', '\u2660')    # club, diamond, heart, spade
 ranks = ('Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine', 'Ten', 'Jack', 'Queen', 'King', 'Ace')
 
 class Deck:
